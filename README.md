@@ -10,11 +10,13 @@ Challenge source code available [here](https://github.com/luca-brambilla/APSC_ch
 
 Given $\Omega = (0,1)\times(0,1) \subset \mathbb{R}^2$, consider the Laplace equation:
 
-$$\begin{cases}
+$$
+\begin{cases}
 -\Delta u(\mathbf{x}) = f(\mathbf{x}), & \mathbf{x}\in\Omega \\
 u(\mathbf{x}) = 0 & \mathbf{x}\in\partial\Omega
+\end{cases}
+$$
 
-\end{cases}$$
 
 Solving this problem with Jacobi iterative method exploiting parallelization. 
 
