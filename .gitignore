@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+main
+doxygen-awesome-css-2.3.2
+Doxyfile
